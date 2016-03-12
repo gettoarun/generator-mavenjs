@@ -1,6 +1,14 @@
 # generator-mavenjs [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > A maven style nodejs project maker. Supports gulp and docker too.
 
+I have developed this in JS, not in coffee, because, the generator defaulted some code and I needed something quick. I intend to coffee-ize this code sometime in the future.
+
+Warning: The generator does not default the libraries to a known combination of the dependent tools. Maintaining that kinda config would make this tool less useful, I feel. Each developer would have a preference on the wiring this tool for now just defaults to latest.
+
+## Gotchas
+
+* For 0.11.x projects I had to use [gulp-coffee-es6](https://github.com/t3chnoboy/gulp-coffee-es6.git)
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-mavenjs using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
@@ -16,9 +24,13 @@ Then generate your new project:
 yo mavenjs
 ```
 
-## Getting To Know Yeoman
+## Roadmap
 
-Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he&#39;s very easy to work with. If you think he&#39;s too opinionated, he can be easily convinced. Feel free to [learn more about him](http://yeoman.io/).
+* Coffee-ize
+* Support Grunt based pipeline
+* Expand docker support
+* Add Jasmine test support
+
 
 ## License
 
