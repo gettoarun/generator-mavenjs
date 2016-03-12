@@ -1,6 +1,6 @@
 {
   "name": "generator-mavenjs",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "description": "A maven style nodejs project maker. Supports gulp and docker too.",
   "homepage": "",
   "author": {
